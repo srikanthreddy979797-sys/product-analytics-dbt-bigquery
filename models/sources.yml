@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: bank_dw
+    database: spherical-list-484512-m3
+    schema: bank_dw
+    tables:
+      - name: raw_events

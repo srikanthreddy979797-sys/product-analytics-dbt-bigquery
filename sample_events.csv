@@ -1,0 +1,12 @@
+user_id,event_name,event_timestamp,revenue,campaign_source,campaign_medium
+u1,signup,2024-01-01 10:00:00,0,google,cpc
+u1,app_open,2024-01-02 09:00:00,0,google,cpc
+u1,purchase,2024-01-05 12:00:00,25,google,cpc
+u2,signup,2024-01-01 11:00:00,0,facebook,paid_social
+u2,app_open,2024-01-03 08:00:00,0,facebook,paid_social
+u2,purchase,2024-01-10 15:00:00,40,facebook,paid_social
+u3,signup,2024-01-02 14:00:00,0,organic,seo
+u3,app_open,2024-01-02 16:00:00,0,organic,seo
+u3,app_open,2024-01-04 10:00:00,0,organic,seo
+u4,signup,2024-01-03 09:00:00,0,google,cpc
+u4,purchase,2024-01-04 11:00:00,15,google,cpc

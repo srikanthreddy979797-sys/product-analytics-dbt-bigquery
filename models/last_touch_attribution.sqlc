@@ -1,0 +1,15 @@
+{{ config(
+    materialized='table'
+) }}
+
+select
+    user_id,
+
+    array_agg(campaign_source order by event_timestamp desc limit 1)[offset(0)]
+        as last_source,
+
+    array_agg(campaign_medium order by event_timestamp desc limit 1)[offset(0)]
+        as last_medium
+
+from {{ ref('stg_raw_events') }}
+group by user_id
