@@ -84,7 +84,7 @@ Run tests:
 
 ```bash
 dbt test
-
+```
 
 ## 🛠 Tech Stack
 
